@@ -9,14 +9,14 @@ namespace CSLightSwapN5
         {
             string firstName = "Петров";
             string lastName = "Егор";
-            string bufferString;
+            string bufferName;
 
             Console.WriteLine($"Имя: {firstName}\n" +
                               $"Фамилия: {lastName}");
 
-            bufferString = firstName;
+            bufferName = firstName;
             firstName = lastName;
-            lastName = bufferString;
+            lastName = bufferName;
 
             Console.WriteLine("\nИсправление ошибки...");
             Console.WriteLine($"Имя: {firstName}\n" +
